@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima aqui</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- CDN the FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JS -->
+    <script src="js/script.js" defer></script>
+
+</head>
+
+<body class="bg-dark d-flex justify-content-center align-items-center">
+
+    <div class="container bg-light p-5 d-flex-c align-items-center justify-content-center">
+        <div class="form text-secondary">
+            <h2 class="text-center fw-bolder p-3">App Clima ☀️</h2>
+            <p class="text-center mt-2 p-2">Seja bem vindo(a) ao App Clima! <br> Confira o clima de uma cidade buscando
+                por ela no campo a baixo:</p>
+            <div class="form-input-container input-group pb-3">
+                <input id="city-input" class="form-control mr-3" type="text" placeholder="Digite o nome da cidade">
+                <button id="search" class="btn btn-ml btn-primary font-weight-light mr-2">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="weather-date" class="d-flex-c text-center mt-3 mb-2 pt-4">
+            <h2 class="d-flex justify-content-center align-items-center mb-1">
+                <i class="fa-solid fa-location-dot mr-2"></i>
+                <span id="city">Patos</span>
+                <img src="https://flagsapi.com/BR/flat/16.png" alt="Bandeira do país" id="country" class="ml-1">
+            </h2>
+            <p id="temperature"><span>38</span>&deg;C</p>
+            <div id="descriptio-container" class="d-flex p-2 justify-content-center align-items-center">
+                <p id="description" class="mr-2">Nublado</p>
+                <img src="https://www.climatempo.com.br/dist/images/v2/svg/2.svg" alt="Condição do Tempo"
+                    id="weather-icon">
+            </div>
+            <div id="details-container" class="d-flex justify-content-center align-items-center">
+                <p id="unidity" class="col">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span>48%</span>
+                </p>
+                <p id="wind" class="col">
+                    <i class="fa-solid fa-wind"></i>
+                    <span>3km/h</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
