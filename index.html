@@ -28,9 +28,9 @@
 
 <body class="bg-dark d-flex justify-content-center align-items-center">
 
-    <div class="container bg-light p-5 d-flex-c align-items-center justify-content-center">
+    <div class="container p-5 d-flex-c align-items-center justify-content-center">
         <div class="form text-secondary">
-            <h2 class="text-center fw-bolder p-3">App Clima ☀️</h2>
+            <h1 class="text-center fw-bolder p-3">App Clima ☀️</h1>
             <p class="text-center mt-2 p-2">Seja bem vindo(a) ao App Clima! <br> Confira o clima de uma cidade buscando
                 por ela no campo a baixo:</p>
             <div class="form-input-container input-group pb-3">
@@ -41,20 +41,20 @@
             </div>
         </div>
 
-        <div id="weather-date" class="d-flex-c text-center mt-3 mb-2 pt-4">
+        <div id="weather-date" class="d-flex-c text-center mt-3 mb-2 pt-4 hide">
             <h2 class="d-flex justify-content-center align-items-center mb-1">
                 <i class="fa-solid fa-location-dot mr-2"></i>
                 <span id="city">Patos</span>
                 <img src="https://flagsapi.com/BR/flat/16.png" alt="Bandeira do país" id="country" class="ml-1">
             </h2>
             <p id="temperature"><span>38</span>&deg;C</p>
-            <div id="descriptio-container" class="d-flex p-2 justify-content-center align-items-center">
-                <p id="description" class="mr-2">Nublado</p>
-                <img src="https://www.climatempo.com.br/dist/images/v2/svg/2.svg" alt="Condição do Tempo"
+            <div id="descriptio-container">
+                <p id="description" class="">Nublado</p>
+                <img src="http://openweathermap.org/img/wn/02d.png" alt="Condição do Tempo"
                     id="weather-icon">
             </div>
             <div id="details-container" class="d-flex justify-content-center align-items-center">
-                <p id="unidity" class="col">
+                <p id="hunidity" class="col">
                     <i class="fa-solid fa-droplet"></i>
                     <span>48%</span>
                 </p>

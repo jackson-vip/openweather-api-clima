@@ -8,11 +8,12 @@ body{
     height: 100vh;
 }
 .container{ 
+    background-color: #dfe6ed;
     width: 380px;
     border-radius: .4rem;
 }
 .form p{
-    font-size: .8rem;
+    font-size: .89rem;
 }
 .form button{
     cursor: pointer;
@@ -24,13 +25,25 @@ body{
 /* Clima */
 
 #weather-date{
-    border-top: 1px solid #dedada;
+    border-top: 1px solid #bcbaba;
 }
 #weather-date h2 i{
     font-size: 1rem;
 }
-#details-container #unidity{
-    border-right: 1px solid #dededa;
+#details-container #hunidity{
+    border-right: 1px solid #bcbaba;
     margin: .6rem;
     padding: .6rem;
+}
+#descriptio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#descriptio-container img{
+    margin-left: .9rem;
+}
+#descriptio-container p{
+    margin-top: 1rem;
 }
